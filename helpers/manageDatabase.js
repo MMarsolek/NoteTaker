@@ -41,7 +41,7 @@ const deleteNote = (id, fileLocation) => {
           writeToFile(fileLocation, parsedNotes);
         }
       });
-    }
+    }h
   });
 };
 

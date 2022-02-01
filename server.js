@@ -26,5 +26,5 @@ app.get('/notes', (req, res) =>
 
 //Tells the app which port to listen on
 app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT} 🚀`)
+  console.log(`App listening at http://localhost:${PORT}`)
 );
