@@ -9,7 +9,13 @@ A handy tool that will help track your notes throughout the day. All of the note
 node test.js
 
 ## How to use
-You can run this program locally using port 8080 or by going to https://damp-falls-28611.herokuapp.com/
+You can run this program locally using port 8080 or by going to https://damp-falls-28611.herokuapp.com/. The clear bold text and easy to recognize symbols make this program user friendly.
+
+
+
+https://user-images.githubusercontent.com/75141165/151916820-a288fb87-c770-45cf-9332-6f9a1b96a64f.mp4
+
+
 
 ## Dependencies
 npm ci
