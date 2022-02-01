@@ -6,15 +6,13 @@ const { addNote, deleteNote } = require('../helpers/manageDatabase');
 
 //Retrieves the current list of notes by reading the file. 
 manageNotes.get('/', (req, res) => {
-    console.info(`${req.method} request received for feedback`);
-  
    fs.readFile('./db/db.json', 'utf8' , (err, data) =>
    {
      if(err){
        console.log(err);
      } else{
-      res.json(JSON.parse(data));
-     }
+        res.json(JSON.parse(data));
+    }
    });
   });
 
@@ -42,7 +40,7 @@ manageNotes.get('/', (req, res) => {
 //Calls the delete method and passes in the ID number from the URL
   manageNotes.delete(`/:id`, function (req, res) {  
     if (req.params['id']) {
-      deleteNote(req.params['id'].trim(), './db/db.json');
+      deleteNote(req.params['id'], './db/db.json');
       res.json(`Note deleted successfully`);
     } else {
       res.error('Error in deleting note');

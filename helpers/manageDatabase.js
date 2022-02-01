@@ -17,7 +17,7 @@ const addNote = (noteContent, file) => {
     if (err) {
       console.error(err);
     } else {
-      const parsedNotes = JSON.parse(data);
+      const parsedNotes = JSON.parse(data) ;
       parsedNotes.push(noteContent);
       writeToFile(file, parsedNotes);
     }
@@ -41,7 +41,7 @@ const deleteNote = (id, fileLocation) => {
           writeToFile(fileLocation, parsedNotes);
         }
       });
-    }h
+    }
   });
 };
 

@@ -1,1 +1,17 @@
-[]
+[
+	{
+		"title": "Clean ",
+		"text": "Do the bathrooms\nDo laundry\nDo dishes",
+		"id": "1lvc0a64kz3nvwwx"
+	},
+	{
+		"title": "Study",
+		"text": "For the test",
+		"id": "1lvc0iv8kz3nwhv3"
+	},
+	{
+		"title": "Walk the dog",
+		"text": "Get a dog",
+		"id": "1lvc0ltgkz3nwwh8"
+	}
+]
